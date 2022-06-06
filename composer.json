@@ -1,0 +1,26 @@
+{
+    "name": "lifetime/yslib",
+    "description": "Swoole + Yaf + ThinkPHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "LifetimeNine",
+            "email": "2390904403@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "yslib\\": "yslib/"
+        }
+    },
+    "require-dev": {
+        "shixinke/php-ide-helper": "dev-master"
+    },
+    "require": {
+        "topthink/think-orm": "^2.0",
+        "topthink/think-container": "^2.0",
+        "topthink/think-cache": "^2.0",
+        "topthink/think-validate": "^2.0",
+        "topthink/think-log": "^2.0"
+    }
+}

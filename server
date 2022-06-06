@@ -1,0 +1,7 @@
+<?php
+
+require './yslib/Server.php';
+
+$server = new Server;
+
+$server->run();
